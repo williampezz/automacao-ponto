@@ -26,6 +26,7 @@ describe('template spec', () => {
   it('Login sucesso', () => {
     Login.loginSuccess()
     Apontamentos.InserirApontamento()
+    Apontamentos.adicionarHorariosTrabalhados()
    
   })
 
